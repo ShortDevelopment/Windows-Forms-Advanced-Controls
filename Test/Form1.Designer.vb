@@ -23,9 +23,9 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim TreeNode16 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Knoten1")
-        Dim TreeNode17 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Knoten2")
-        Dim TreeNode18 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Knoten0", New System.Windows.Forms.TreeNode() {TreeNode16, TreeNode17})
+        Dim TreeNode1 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Knoten1")
+        Dim TreeNode2 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Knoten2")
+        Dim TreeNode3 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Knoten0", New System.Windows.Forms.TreeNode() {TreeNode1, TreeNode2})
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Button2 = New System.Windows.Forms.Button()
@@ -78,13 +78,13 @@ Partial Class Form1
         Me.ExplorerTreeView1.HotTracking = True
         Me.ExplorerTreeView1.Location = New System.Drawing.Point(451, 12)
         Me.ExplorerTreeView1.Name = "ExplorerTreeView1"
-        TreeNode16.Name = "Knoten1"
-        TreeNode16.Text = "Knoten1"
-        TreeNode17.Name = "Knoten2"
-        TreeNode17.Text = "Knoten2"
-        TreeNode18.Name = "Knoten0"
-        TreeNode18.Text = "Knoten0"
-        Me.ExplorerTreeView1.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode18})
+        TreeNode1.Name = "Knoten1"
+        TreeNode1.Text = "Knoten1"
+        TreeNode2.Name = "Knoten2"
+        TreeNode2.Text = "Knoten2"
+        TreeNode3.Name = "Knoten0"
+        TreeNode3.Text = "Knoten0"
+        Me.ExplorerTreeView1.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode3})
         Me.ExplorerTreeView1.Size = New System.Drawing.Size(202, 236)
         Me.ExplorerTreeView1.TabIndex = 8
         '
@@ -113,7 +113,7 @@ Partial Class Form1
         '
         Me.PlaceholderTextBox1.Location = New System.Drawing.Point(12, 63)
         Me.PlaceholderTextBox1.Name = "PlaceholderTextBox1"
-        Me.PlaceholderTextBox1.PlaceHolder = "Test"
+        Me.PlaceholderTextBox1.PlaceHolder = "PlaceHolder"
         Me.PlaceholderTextBox1.Size = New System.Drawing.Size(338, 20)
         Me.PlaceholderTextBox1.TabIndex = 3
         '

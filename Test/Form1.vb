@@ -28,4 +28,8 @@ Public Class Form1
             MsgBox($"Selected: {d.SelectedFolder}", MsgBoxStyle.Information)
         End If
     End Sub
+
+    Private Sub VistaLinkButton1_Click(sender As Object, e As EventArgs)
+
+    End Sub
 End Class
